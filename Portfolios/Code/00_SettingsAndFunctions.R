@@ -9,7 +9,8 @@ options(dplyr.summarise.inform = FALSE)
 #### PATHS
 
 # pathProject = '/cm/chen/anomalies.com/cfr1/'
-pathProject <- paste0(getwd(), "/")
+# pathProject <- paste0(getwd(), "/")
+pathProject <- "/Users/tobiasherbstuni/sciebo/2_Projects/002_Research projects/00209_Asset pricing for banks/CrossSection/"
 
 pathPredictors <- paste0(pathProject, "Signals/Data/Predictors/")
 pathPlacebos <- paste0(pathProject, "Signals/Data/Placebos/")
